@@ -31,7 +31,7 @@ def powerAp(mp,power):
 				row.append(a[len(a) - 1 - i - j])
 		matrix[i] = row
 	x = solve(matrix, b)
-	print(x)
+	print(x[0])
 
 
 testFile = "testFile_2"
