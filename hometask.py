@@ -34,7 +34,7 @@ def powerAp(mp,power):
 	print(x[0])
 
 
-testFile = "testFile_2"
+testFile = "testFile_1"
 textFile = "analFile"
 mp = dict()
 i = 0
@@ -49,7 +49,7 @@ n = 0
 delta = 0
 if (testTime < 1000):
 	delta = 20000
-	n = 50000
+	n = 500001
 else:
 	delta = 10000
 	n = 10000
